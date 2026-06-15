@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <meta name="description" content="Portfolio profesional de Data Analyst especializado en SQL, Python y Power BI." />
+
+    <!-- Google Font (opcional, solo tipografía) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Navegación fija -->
+    <header class="header">
+        <div class="container header__content">
+        <div class="logo">MAMD</div>
+            <nav class="nav">
+                <button class="nav__toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav__list">
+                    <li><a href="#hero" class="nav__link">Inicio</a></li>
+                    <li><a href="#projects" class="nav__link">Proyectos</a></li>
+                    <li><a href="#about" class="nav__link">Sobre mí</a></li>
+                    <li><a href="#extra" class="nav__link">Formación</a></li>
+                    <li><a href="#contact" class="nav__link">Contáctame</a></li>  
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / Banner principal -->
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero__content">
+                <div class="hero__text">
+                    <p class="hero__eyebrow">
+                        Desarrollador Web | Data Analyst
+                    </p>
+                    
+                    <h1 class="hero__title">
+                        Miguel Ángel Moreno Delgado
+                    </h1>
+
+                    <h2 class="hero__subtitle">
+                        Desarrollador Web | Data Analyst
+                    </h2>
+
+
+                    <p class="hero__description">
+                        Analista de Datos Junior en formación con base técnica en desarrollo de software y especialización en análisis,
+                        tratamiento y visualización de datos. Experiencia trabajando con Python, SQL, Excel y Power BI, realizando limpieza de
+                        datos, análisis exploratorio (EDA) y creación de dashboards interactivos orientados a negocio.
+                    </p>
+
+                    <p class="hero__description">
+                        Desarrollador especializado en desarrollo web con experiencia en APIs REST (Spring Boot), aplicaciones web.
+                        Experto en arquitectura backend y bases de datos SQL.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn btn--primary">Ver proyectos</a>
+                        <a href="#about" class="btn btn--ghost">Sobre mí</a>
+                    </div>
+                </div>
+                <div class="hero__visual">
+                    <figure class="hero__photo">
+                    <img src="assets/fotoPerfil.jpg" alt="Foto de Miguel Ángel Moreno Delgado" />
+                </figure>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="section section--alt">
+            <div class="container">
+                <header class="section__header">
+                    <h2 class="section__title">Proyectos destacados</h2>
+                    <p class="section__subtitle">
+                        Selección de proyectos que muestran mi enfoque en negocio, datos y visualización.
+                    </p>
+                </header>
+
+                <div class="projects-groups">
+                    <div class="projects-group">
+                        <div class="projects-group__header">
+                            <h3 class="projects-group__title">Data Analyst</h3>
+                            <p class="projects-group__subtitle">Modelos, dashboards y analítica orientada a negocio.</p>
+                        </div>
+                        <div class="projects-grid">
+
+                            <!-- Proyecto 6  -->
+                            <article class="project-card">
+                                <div class="project-card__header">
+                                    <h3 class="project-card__title">Informe de Análisis de Datos en Power BI</h3>
+                                    <p class="project-card__tag">Power BI · CSV</p>
+                                </div>
+
+                                <p class="project-card__description">
+                                    Este proyecto consiste en un informe de análisis de datos en Power BI, que incluye la creación de un modelo de datos, la limpieza y
+                                    transformación de datos, la creación de visualizaciones interactivas y un dashboard para la toma de decisiones empresariales.
+                                </p>
+                                
+                                <ul class="project-card__tech">
+                                    <li>Power BI</li>
+                                    <li>CSV</li>
+                                </ul>
+                    
+                                <div class="project-card__links">
+                                    <a href="https://github.com/mangelm/Analisis_power_bi" class="project-card__link" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+                                </div>
+                            </article>
+
+                            <!-- proyecto 5 -->
+                            <article class="project-card">
+                                <div class="project-card__header">
+                                    <h3 class="project-card__title">Análisis EDA COVID-19</h3>
+                                    <p class="project-card__tag">Python · Jupyter Notebook · EDA</p>
+                                </div>
+
+                                <p class="project-card__description">
+                                    Análisis exhaustivo de dataset acerca de covid-19, con la realización de un notebook y 
+                                    presentación de un informe ejecutivo (EDA), sobre los datos mostrados.
+                                </p>
+                                
+                                <ul class="project-card__tech">
+                                    <li>Python</li>
+                                    <li>Jupyter Notebook</li>
+                                    <li>EDA</li>
+                                </ul>
+                    
+                                <div class="project-card__links">
+                                    <a href="https://github.com/mangelm/Proyecto-EDA-Exploratory-Data-Analysis" class="project-card__link" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+                                </div>
+                            </article>
+
+                            <!-- proyecto 4 -->
+                            <article class="project-card">
+                                <div class="project-card__header">
+                                    <h3 class="project-card__title">Análisis negocio airbnb</h3>
+                                    <p class="project-card__tag">Power BI · Excel · ETL</p>
+                                </div>
+                                <p class="project-card__description">
+                                    Análisis exhaustivo de dataset acerca de airbnb, con el análisis y estudio de los alojamientos y distintos kpis acerca
+                                    de la empresa.
+                                </p>
+                                
+                                <ul class="project-card__tech">
+                                    <li>Power BI</li>
+                                    <li>Excel</li>
+                                    <li>ETL</li>
+                                </ul>
+                                <div class="project-card__links">
+                                    <a href="https://github.com/mangelm/project-data-automation" class="project-card__link" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+                                </div>
+                            </article>
+
+                            <!-- proyecto 3 -->
+                            <article class="project-card">
+                                <div class="project-card__header">
+                                    <h3 class="project-card__title">Extracción y análisis de datos Sakila</h3>
+                                    <p class="project-card__tag">MySQL · Python · Jupyter Notebook · Excel</p>
+                                </div>
+                                <p class="project-card__description">
+                                    ETL de la base de datos Sakila, extracción de datos y análisis de datos con python y excel. 
+                                    Limpieza de datos en MySQL y análisis de datos con python y excel.
+                                </p>
+                                
+                                <ul class="project-card__tech">
+                                    <li>MySQL</li>
+                                    <li>Python</li>
+                                    <li>Jupyter Notebook</li>
+                                    <li>Excel</li>
+                                </ul>
+                                <div class="project-card__links">
+                                    <a href="https://github.com/mangelm/project-data-automation" class="project-card__link" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+                                </div>
+                            </article>
+
+                            <!-- proyecto 2 -->
+                            <article class="project-card">
+                                <div class="project-card__header">
+                                    <h3 class="project-card__title">Limpieza de Datos de Kiva</h3>
+                                    <p class="project-card__tag">Python · Jupyter Notebook</p>
+                                </div>
+                                <p class="project-card__description">
+                                    Limpieza de datos de Kiva, un proyecto de análisis de datos que consiste en la limpieza y 
+                                    transformación de datos utilizando Python y Jupyter Notebook.
+                                </p>
+                                
+                                <ul class="project-card__tech">
+                                    <li>Python</li>
+                                    <li>Jupyter Notebook</li>
+                                </ul>
+                                <div class="project-card__links">
+                                    <a href="https://github.com/mangelm/procesamiento-y-limpieza-de-datos-python" class="project-card__link" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+                                </div>
+                            </article>
+
+                        </div> 
+                    </div> 
+                    
+                    <!--  -->
+                    <div class="projects-group">
+                        <div class="projects-group__header">
+                            <h3 class="projects-group__title">Web Development</h3>
+                            <p class="projects-group__subtitle">proyectos de desarrollo web</p>
+                        </div>
+                        <div class="projects-grid"> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
